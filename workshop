@@ -1,0 +1,2 @@
+create view deptondemp as select * from employees natural join departments;
+select * from deptondemp;
